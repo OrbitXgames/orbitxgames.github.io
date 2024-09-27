@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="https://use.typekit.net/ruh6ybw.css">
         <style>
             body {
-                background-image: url("/orbitfinal.jpeg");
+                background-image: url("/orbit.gif");
   background-color: #cccccc;
   background-repeat:no-repeat;
   background-size: 100vw 100vh;
@@ -15,12 +16,29 @@
   background-color: #333;
   position: fixed;
   top: 0;
+  right:0;
   width: 100%;
+}
+#title {
+    font-family: "dynapuff", sans-serif;
+font-weight: 600;
+font-style: normal;  
+font-size:50px ;}
+.games {
+    border-radius:50px;
+    height:20vh;
+    
+}
+#games {
+    position:relative;
+    top: 150px;
 }
         </style>
     </head>
     <body>
-        <div id="navbar"><h1>OrbitX games</h1></div>
-        
+        <div id="navbar"><h1 id="title">OrbitX games</h1></div>
+        <div id="games"><a href="games/warsim.html"><img class="games"src="https://www.onlinegames.io/media/posts/821/responsive/War-Simulator-lg.jpg"></a>
+            <a href="games/miniracing.html"><img class="games"src="https://www.onlinegames.io/media/posts/819/responsive/Super-Mini-Racing-lg.jpg"></a></div>
+        </div>
     </body>
 </html>
